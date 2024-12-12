@@ -1,0 +1,11 @@
+function checkObj(obj, checkProp) {
+  // Cambia solo el código debajo de esta línea
+  if(!obj.hasOwnProperty(checkProp)) {
+    return "Not Found";
+  }else {
+    return obj[checkProp];
+  }
+  
+  
+  // Cambia solo el código encima de esta línea
+}
